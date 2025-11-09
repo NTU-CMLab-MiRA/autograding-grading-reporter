@@ -12,6 +12,7 @@ exports.ConsoleResults = function ConsoleResults(runnerResults) {
       const maxScore = getMaxScoreForTest(results)
       // const weight = getTestWeight(maxScore, totalMaxScore);
       const score = getTestScore(results)
+      console.log(score, maxScore)
       if (index > 0) {
         console.log(`${COLORS.magenta}🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀${COLORS.reset}\n`)
       }
