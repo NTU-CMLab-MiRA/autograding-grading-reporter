@@ -14,7 +14,6 @@ const getTestScore = (runnerResult) => {
   tests.forEach((test) => {
     score += test.score;
   });
-  console.log(`Calculated test score: ${score} for runnerResult:`, runnerResult);
   return score;
 };
 
