@@ -11,10 +11,10 @@ const totalPercentageReducer = (acc, { score, weight, maxScore }) => {
 const getTestScore = (runnerResult) => {
   const { tests } = runnerResult;
   let score = 0;
-  runnerResult.tests.forEach((test) => {
+  tests.forEach((test) => {
     score += test.score;
   });
-
+  console.log(`Calculated test score: ${score} for runnerResult:`, runnerResult);
   return score;
 };
 
