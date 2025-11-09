@@ -1,4 +1,6 @@
 name: "GitHub Classroom Autograding Results handler"
+icon: activity
+color: gray-dark
 description: "Integrate your CS class with GitHub using GitHub Classroom"
 inputs:
   token:
